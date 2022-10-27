@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.kvadrat {
+    position: absolute;
+    top: 300px;
+    right: 900px;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(26, 153, 142);
+    animation-name: krst;
+    animation-delay: 1s;
+    animation-duration: 11s;
+}
+
+@keyframes krst {
+    0% {
+        top: 300px;
+        right: 900px;
+    }
+
+    8% {
+        top: 300px;
+        right: 800px;
+    }
+
+    17% {
+        top: 200px;
+        right: 800px;
+    }
+
+    25% {
+        top: 200px;
+        right: 700px;
+    }
+
+    33% {
+        top: 300px;
+        right: 700px;
+    }
+
+    41% {
+        top: 300px;
+        right: 600px;
+    }
+
+    49% {
+        top: 400px;
+        right: 600px;
+    }
+
+    57% {
+        top: 400px;
+        right: 700px;
+    }
+
+    65% {
+        top: 500px;
+        right: 700px;
+    }
+
+    73% {
+        top: 500px;
+        right: 800px;
+    }
+
+    82% {
+        top: 400px;
+        right: 800px;
+    }
+
+    91% {
+        top: 400px;
+        right: 900px;
+    }
+
+    100% {
+        top: 300px;
+        right: 900px;
+    }
+}
